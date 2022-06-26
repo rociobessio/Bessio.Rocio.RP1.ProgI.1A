@@ -1,17 +1,20 @@
 /*
  ============================================================================
  Name        : 1A.c
- Author      : rocio bessio
- Version     :
- Copyright   : Your copyright notice
- Description : Hello World in C, Ansi-style
+ Author      : Bessio Rocio Soledad
+ Date        : 13/06/2022
+ Tema        : RECU PRIMER PARCIAL
+ Division    : 1A
  ============================================================================
  */
-
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+#include <ctype.h>
 
 int main(void) {
-	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	setbuf(stdout, NULL);
+
+
 	return EXIT_SUCCESS;
 }
