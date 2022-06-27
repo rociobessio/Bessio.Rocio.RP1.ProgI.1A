@@ -29,12 +29,29 @@ void invertirCadena(char* cadena);
 
 //void ordenarCaracteres(char* cadenaCaracteres);
 
+/*
+ * 1. Dada  una estructura ePais cuyos campos son id(int), nombre(20 caracteres), infectados(int),
+ * recuperados(int) y muertos(int). Desarrollar una función llamada actualizarRecuperados que reciba el país
+ * y los recuperados del dia y que acumule estos a los que ya tiene el país. La función no devuelve nada.
+ *
+ */
+
+typedef struct{
+	int id;
+	char nombre[20];
+	int infectados;
+	int recuperados;
+	int muertos;
+}ePais;
+
+//void actualizarRecuperados(char* pais, int recuperados);
+
 int main(void) {
 	setbuf(stdout, NULL);
 
 	char cadena[15] = "UTN-FRA";
 
-	char cadenaOrdenar[10] = "agilmoort";
+	//char cadenaOrdenar[10] = "agilmoort";
 
 	invertirCadena(cadena);
 
@@ -76,3 +93,4 @@ void ordenarCaracteres(char* cadenaCaracteres)
 	}
 
 }*/
+
